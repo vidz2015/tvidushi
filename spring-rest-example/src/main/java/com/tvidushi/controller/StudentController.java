@@ -36,7 +36,7 @@ public class StudentController {
 		
 
 	
-		@RequestMapping(value= "/rest/stud",method=RequestMethod.GET)
+		@RequestMapping(value= "/rest/stud",method=RequestMethod.GET)   
 		public @ResponseBody Student getStudent(){
 			logger.info(" Get student");
 			Student student = new Student();
